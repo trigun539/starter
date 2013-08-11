@@ -1,0 +1,6 @@
+{
+	"jam": {
+		"packageDir": "app/js/vendor",
+		"baseUrl": "/"
+	}
+}

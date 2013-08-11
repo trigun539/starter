@@ -1,0 +1,16 @@
+{
+	"framework": "mocha",
+	"launch_in_dev": [
+		"chrome"
+	],
+	"src_files": [
+		"app/tests/*-test.coffee"
+	], 
+	"serve_files": [
+		"app/tests/helpers/chai.js",
+		"app/tests/testConfig.js",
+		"app/tests/*-test.js"
+	],
+	"before_tests": "coffee -c app/tests/*-test.coffee",
+	"on_exit": "rm -rf app/tests/*-test.js"
+}
