@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+		"express": "latest",
+		"jade": "latest",
+		"async": "latest",
+		"mongoose": "latest",
+		"underscore": "latest",
+		"passport": "latest",
+		"passport-local": "latest",
+		"connect": "latest",
+		"connect-mongo": "latest"
+	},
   "author": "Edwin Perez",
   "license": "BSD"
 }
